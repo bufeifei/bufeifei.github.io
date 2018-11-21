@@ -1,90 +1,96 @@
+﻿<!DOCTYPE html>
 <html>
-	<head>
+  <head>
+    <title>旅行足迹</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/旅行足迹/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/旅行足迹/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
 
-		<!--引入jQuery框架-->
-		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-		<!--引入jVectorMap库-->
-		<script type="text/javascript" src="js/jquery-jvectormap-1.2.2.min.js"></script>
-		<!--引入样式表-->
-		<link href="js/jquery-jvectormap-1.2.2.css" rel="stylesheet" media="screen">
+      <!-- Unnamed (内联框架) -->
+      <div id="u0" class="ax_default">
+        <iframe id="u0_input" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
 
+      <!-- Unnamed (组 合) -->
+      <div id="u1" class="ax_default" data-width="240" data-height="36">
 
-		<!--引入中国地图数据库-->
-		<script type="text/javascript" src="js/jquery-jvectormap-cn-merc-en.js"></script>
+        <!-- Unnamed (矩形) -->
+        <div id="u2" class="ax_default label">
+          <div id="u2_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u3" class="text">
+            <p><span>旅行是一种病！</span></p>
+          </div>
+        </div>
 
-		<!--引入美国地图数据库-->
-		<!--script type="text/javascript" src="js/jquery-jvectormap-us-aea.js"></script-->
-		<!--引入世界地图数据库-->
-		<!--script type="text/javascript" src="js/jquery-jvectormap-world-mill.js"></script-->
-		
-		<!--移动端设备访问自动跳转到移动端页面-->
-		<script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/JavaScript">
-                </script>
-                <script type="text/javascript">uaredirect("https://bufeifei.github.io/m");</script>
+        <!-- Unnamed (矩形) -->
+        <div id="u4" class="ax_default label">
+          <div id="u4_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u5" class="text">
+            <p><span>“</span></p>
+          </div>
+        </div>
 
-	</head>
-<body>
-	<!--background-color: 地图背景颜色-->
-	<div id="map" style="background-color:#FFFFFF"> </div>
-	<script>
-		$('#map').vectorMap({
+        <!-- Unnamed (矩形) -->
+        <div id="u6" class="ax_default label">
+          <div id="u6_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u7" class="text">
+            <p><span>”</span></p>
+          </div>
+        </div>
+      </div>
 
-			// 此处更改地图
-			map: 'cn_merc_en',   // 中国地图
-			//map: 'us_aea',     // 美国地图
-			//map: 'world_mill', // 世界地图
-
-
-			backgroundColor: 'transparent',
-			zoomMin: 0.9, // 鼠标缩放时的最小比例
-			zoomMax: 5.0, // 鼠标缩放时的最大比例
-			focusOn: {
-				x: 0.55,
-				y: 2,
-				scale: 0.9
-			},
-			regionStyle: {
-				initial: {
-					fill: '#808080',   // 地图颜色
-					"fill-opacity": 1, // 省份（州）是否隐藏，鼠标滑动时显示; 1：显示，2：隐藏。
-					stroke: 'none',
-					"stroke-width": 0,
-					"stroke-opacity": 1
-				},
-				hover: {
-					fill: '#E3E3E3',  // 鼠标滑动至某省份的高亮颜色。
-					"fill-opacity": 0.8
-				},
-				selected: {
-					fill: 'yellow'
-				},
-				selectedHover: {}
-			},
-			markerStyle: {
-		        initial: {
-		            fill: '#FF5858', // 足迹位置的填充颜色
-		            stroke: '#fff'   // 足迹位置的描边颜色
-		        },
-				hover: {
-					fill: '#fd2020', // 鼠标滑动至足迹位置后的填充颜色
-					stroke: '#fff',  // 鼠标滑动至足迹位置后的描边颜色
-					"fill-opacity": 0.8
-				},
-		    },
-			markers: [ // 足迹位置
-
-				// {latLng: [经度（保留两位小数）, 纬度（保留两位小数）], name: '城市名称'},
-				// 推荐查询经纬度网站：http://www.gpsspg.com/maps.htm
-
-		        {latLng: [31.15, 121.50], name: '上海'},
-		        {latLng: [30.65, 104.08], name: '成都 2018.4.5'},
-			{latLng: [31.11, 121.05], name: '朱家角 2018.6.9'},
-		        {latLng: [30.72, 122.82], name: '枸杞岛 2018.6.16'},
-			{latLng: [29.94, 119.30], name: '桐庐 2018.7.13'},
-		        {latLng: [22.27, 114.15], name: '香港 2018.9.21'},
-		        {latLng: [25.41, 107.88], name: '贵州 2018.9.30'},
-			{latLng: [30.94, 120.89], name: '西塘 2018.10.27'},
-		    ]
-		});
-	</script>
+      <!-- Unnamed (内联框架) -->
+      <div id="u8" class="ax_default">
+        <iframe id="u8_input" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
 </html>
