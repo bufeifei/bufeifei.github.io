@@ -17,11 +17,6 @@
 		<!--引入世界地图数据库-->
 		<!--script type="text/javascript" src="js/jquery-jvectormap-world-mill.js"></script-->
 		
-		<!--移动端设备访问自动跳转到移动端页面-->
-		<script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/JavaScript">
-                </script>
-                <script type="text/javascript">uaredirect("https://bufeifei.github.io/m");</script>
-
 	</head>
 <body>
 	<!--background-color: 地图背景颜色-->
@@ -36,8 +31,8 @@
 
 
 			backgroundColor: 'transparent',
-			zoomMin: 0, // 鼠标缩放时的最小比例
-			zoomMax: 0, // 鼠标缩放时的最大比例
+			zoomMin: 0.9, // 鼠标缩放时的最小比例
+			zoomMax: 5.0, // 鼠标缩放时的最大比例
 			focusOn: {
 				x: 0.55,
 				y: 2,
